@@ -23,9 +23,7 @@ body {
     background-color: rgb(255, 0, 0);
 }
 
-.descriptions {
-    text-align: right;
-}
+
 
 .titlel {
     font-family: 'futuraoblique', Courier, monospace;
@@ -34,7 +32,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    padding-top:130px;
+    padding-top:149px;
   }
 
 .split {
@@ -57,3 +55,29 @@ body {
     background-color: red;
     text-align: right;
   }
+
+  .repo-list {
+    text-align: left;
+    font-size: 20px;
+    font-size: 1.7vw;
+  }
+
+  
+a:link {
+    color: red;
+  }
+  
+
+  a:visited {
+    color: green;
+  }
+  
+ 
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+
+  a:active {
+    color: blue;
+  } 
