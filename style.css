@@ -1,72 +1,25 @@
 @font-face {
-    font-family: 'futurabold';
-    src: url(futurabold.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'punto';
-    src: url(PuntoBold.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-.CARD {
-    font-variant-caps: petite-caps;
-    font-family: 'punto', Courier, monospace;
-    background-color: rgba(0, 174, 248, 0.517);
-    margin-left: auto;
-    margin-right: auto;
-    border: 0px rgb(0, 0, 0) solid;
-    aspect-ratio: 3.5 / 2;
-    opacity: 80%;
-}
-
-
-.name {
-    text-align: center;
-    line-height: 0.8px;
-    float: none;
-    padding-top: 20%;
-    font-size: 35px;
-    font-size: 2.57vw;
-}
-
-.number {
-    text-align: left;
-    float: left;
-    padding: 40px;
-    padding: 3.9vw;
-    font-size: 20px;
-    font-size: 1.7vw;
-}
-
-.contact {
-    text-align: center;
-    vertical-align: bottom;
-    font-size: 40px;
-    font-size: 1.7vw;
-    padding: 30px;
-    padding-top: 8%;
-}
-
-.company {
-    text-align: center;
-    line-height: 0.8px;
-    float: right;
-    padding: 40px;
-    padding: 3.9vw;
-    font-size: 20px;
-    font-size: 1.7vw;
+    font-family: 'futuraoblique';
+    src: url(FuturaOblique.ttf);
 }
 
 body {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    padding: 100px;
+    font-family: 'futuraoblique', Courier, monospace;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    max-height: auto;
 }
 
-.info {
-    font-family: 'futurabold', Courier, monospace;
+.title {
+    font-size: 70px;
+    transform: rotate(25deg);
+    transform-origin: 0% 0%;
+    padding-left: 70px;
+}
+
+.content {
+    background-color: rgb(255, 0, 0);
+    height: 900px;
 }
